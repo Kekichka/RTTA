@@ -2,24 +2,30 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        navy: "#020617",
-        accent: "#10b981", // Emerald-500
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "#10b981", // Emerald 500
+          foreground: "#ffffff",
+        },
       },
       animation: {
-        'fade-up': 'fadeUp 0.5s ease-out forwards',
+        "pulse-slow": "pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "float": "float 6s ease-in-out infinite",
       },
       keyframes: {
-        fadeUp: {
-          '0%': { opacity: '0', transform: 'translateY(20px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
-        }
-      }
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+      },
     },
   },
   plugins: [],
