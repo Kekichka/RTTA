@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#10B981"></rect>
+
+  <!-- Star -->
+  <path d="M32 10L37.4 25.2L53 26.1L40.9 35.9L44.5 51L32 42.8L19.5 51L23.1 35.9L11 26.1L26.6 25.2L32 10Z" fill="#020502"></path>
+
+  <!-- Pen -->
+  <path d="M39.5 20.5L46.5 27.5L31 43L24 43.5L24.5 36.5L39.5 20.5Z" fill="#6EE7B7"></path>
+
+  <path d="M24.5 36.5L24 43.5L31 43L24.5 36.5Z" fill="#020502"></path>
+</svg>

@@ -663,6 +663,10 @@
     top: 40%;
   }
 
+  .-right-0\.5 {
+    right: calc(var(--spacing) * -.5);
+  }
+
   .-right-2 {
     right: calc(var(--spacing) * -2);
   }
@@ -685,6 +689,10 @@
 
   .right-\[-5\%\] {
     right: -5%;
+  }
+
+  .-bottom-0\.5 {
+    bottom: calc(var(--spacing) * -.5);
   }
 
   .bottom-1\/4 {
@@ -1117,6 +1125,10 @@
 
   .rotate-90 {
     rotate: 90deg;
+  }
+
+  .rotate-\[-35deg\] {
+    rotate: -35deg;
   }
 
   .transform {
@@ -2158,6 +2170,10 @@
   .bg-clip-text {
     -webkit-background-clip: text;
     background-clip: text;
+  }
+
+  .fill-black {
+    fill: var(--color-black);
   }
 
   .fill-current {

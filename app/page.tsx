@@ -9,7 +9,8 @@ import {
   ArrowRight,
   FileText,
   Download,
-  BrainCircuit,
+  Star,
+  PenLine,
   Mail,
   Sparkles,
   Loader2,
@@ -61,9 +62,14 @@ const Navbar = () => {
           className="flex items-center gap-3 cursor-pointer"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          <div className="w-10 h-10 bg-gradient-to-tr from-emerald-500 to-green-400 rounded-xl flex items-center justify-center shadow-[0_0_20px_rgba(16,185,129,0.3)]">
-            <BrainCircuit className="text-black w-6 h-6" />
-          </div>
+         <div className="w-10 h-10 bg-gradient-to-tr from-emerald-500 to-green-400 rounded-xl flex items-center justify-center shadow-[0_0_20px_rgba(16,185,129,0.3)] relative">
+  <Star className="text-black w-6 h-6 fill-black" />
+
+  <PenLine
+    className="absolute text-emerald-300 w-4 h-4 rotate-[-35deg] -bottom-0.5 -right-0.5"
+    strokeWidth={3}
+  />
+</div>
 
           <span className="text-2xl font-black tracking-tighter text-white">
             RTTA
@@ -458,9 +464,14 @@ export default function LandingPage() {
 
               {/* AI Analysis */}
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-9 h-9 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
-                  <BrainCircuit className="w-4 h-4 text-emerald-400" />
-                </div>
+               <div className="w-10 h-10 bg-gradient-to-tr from-emerald-500 to-green-400 rounded-xl flex items-center justify-center shadow-[0_0_20px_rgba(16,185,129,0.3)] relative">
+  <Star className="text-black w-6 h-6 fill-black" />
+
+  <PenLine
+    className="absolute text-emerald-300 w-4 h-4 rotate-[-35deg] -bottom-0.5 -right-0.5"
+    strokeWidth={3}
+  />
+</div>
 
                 <span className="text-xs font-black uppercase tracking-[0.2em] text-zinc-500">
                   AI Analysis
@@ -578,7 +589,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-7">
             {[
               { icon: FileText, label: "Add Story" },
-              { icon: BrainCircuit, label: "Logic Check" },
+              { icon: Star, label: "Logic Check" },
               { icon: Cpu, label: "Generate" },
               { icon: Shield, label: "Review" },
               { icon: Download, label: "Export" },

@@ -5,24 +5,6 @@ var mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.extern
 
 module.exports = mod;
 }),
-"[project]/app/favicon.ico (static in ecmascript, tag client)", ((__turbopack_context__) => {
-
-__turbopack_context__.v("/_next/static/media/favicon.02990qvxh78a-.ico" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
-"[project]/app/favicon.ico.mjs { IMAGE => \"[project]/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "default",
-    ()=>__TURBOPACK__default__export__
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__ = __turbopack_context__.i("[project]/app/favicon.ico (static in ecmascript, tag client)");
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 32,
-    height: 32
-};
-}),
 "[project]/app/page.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
 "use strict";
 
@@ -65,4 +47,4 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/page.tsx [app-rsc
 }),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__0rolufp._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__00np5_m._.js.map
